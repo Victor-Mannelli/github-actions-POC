@@ -38,4 +38,4 @@ jobs:
             ${{ runner.os }}-npm-
 
       - name: run ts-prune
-        run: npm ts-prune --error
+        run: npx ts-prune --error
